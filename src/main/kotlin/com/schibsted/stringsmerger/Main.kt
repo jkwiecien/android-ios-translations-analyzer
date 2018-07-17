@@ -126,7 +126,7 @@ private fun findSimilarValues(androidStringsPool: MutableMap<String, String>, iO
         val header = arrayOf("android key", "android value", "iOS key", "iOS value")
         scvWriter.writeNext(header)
         similarStrings.forEach { key, value ->
-            scvWriter.writeNext(arrayOf(key.androidKey, value.androidValue, key.androidKey, value.iosValue))
+            scvWriter.writeNext(arrayOf(key.androidKey, value.androidValue, key.iosKey, value.iosValue))
         }
     } finally {
         fileWriter.flush()
