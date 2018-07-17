@@ -4,7 +4,6 @@ import com.opencsv.CSVWriter
 import java.io.File
 import java.nio.charset.Charset
 import java.nio.file.Files
-import java.nio.file.Paths
 import java.nio.file.StandardOpenOption
 
 fun main(args: Array<String>) {
@@ -76,7 +75,9 @@ private fun findIdenticalValues(androidStringsPool: MutableMap<String, String>, 
         iOsStringsPool.remove(key.iosKey)
     }
 
-    val identicalStringsFileWriter = Files.newBufferedWriter(Paths.get("csv/identical.csv"), Charset.forName("UTF-8"), StandardOpenOption.CREATE)
+    val file = File("csv", "identical.csv")
+    if (file.exists()) file.delete()
+    val identicalStringsFileWriter = Files.newBufferedWriter(file.toPath(), Charset.forName("UTF-8"), StandardOpenOption.CREATE)
     try {
         val identicalStringsCsvWriter = CSVWriter(identicalStringsFileWriter, CSVWriter.DEFAULT_SEPARATOR, CSVWriter.NO_QUOTE_CHARACTER, CSVWriter.DEFAULT_ESCAPE_CHARACTER, CSVWriter.DEFAULT_LINE_END)
         val header = arrayOf("android key", "iOS key", "new key", "value")
@@ -112,7 +113,9 @@ private fun findSimilarValues(androidStringsPool: MutableMap<String, String>, iO
         iOsStringsPool.remove(key.iosKey)
     }
 
-    val identicalStringsFileWriter = Files.newBufferedWriter(Paths.get("csv/similar.csv"), Charset.forName("UTF-8"), StandardOpenOption.CREATE)
+    val file = File("csv", "similar.csv")
+    if (file.exists()) file.delete()
+    val identicalStringsFileWriter = Files.newBufferedWriter(file.toPath(), Charset.forName("UTF-8"), StandardOpenOption.CREATE)
     try {
         val identicalStringsCsvWriter = CSVWriter(identicalStringsFileWriter, CSVWriter.DEFAULT_SEPARATOR, CSVWriter.NO_QUOTE_CHARACTER, CSVWriter.DEFAULT_ESCAPE_CHARACTER, CSVWriter.DEFAULT_LINE_END)
         val header = arrayOf("android key", "android value", "iOS key", "iOS value")
@@ -127,7 +130,9 @@ private fun findSimilarValues(androidStringsPool: MutableMap<String, String>, iO
 
 private fun writeRemaining(androidStringsPool: Map<String, String>, iOsStringsPool: Map<String, String>) {
     println("Writing remaining strings to csv ...")
-    val remainingStringsFileWriter = Files.newBufferedWriter(Paths.get("csv/remaining.csv"), Charset.forName("UTF-8"), StandardOpenOption.CREATE)
+    val file = File("csv", "remaining.csv")
+    if (file.exists()) file.delete()
+    val remainingStringsFileWriter = Files.newBufferedWriter(file.toPath(), Charset.forName("UTF-8"), StandardOpenOption.CREATE)
     try {
         val remainingStringsCsvWriter = CSVWriter(remainingStringsFileWriter, CSVWriter.DEFAULT_SEPARATOR, CSVWriter.NO_QUOTE_CHARACTER, CSVWriter.DEFAULT_ESCAPE_CHARACTER, CSVWriter.DEFAULT_LINE_END)
         val header = arrayOf("android key", "android value", "iOS key", "iOS value")
