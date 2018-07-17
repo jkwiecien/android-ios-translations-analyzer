@@ -1,0 +1,537 @@
+android key,iOS key,android value,iOS value
+app_name,,Viktklubb,
+login,,Logga in,
+error_no_plan_started,,Starta ett program för att komma igång.,
+error_articles,,Kunde inte ladda sidan,
+unit_hg,,hg,
+unit_ml,,ml,
+unit_krm,,krm,
+unit_tsk,,tsk,
+unit_msk,,msk,
+unit_cl,,cl,
+unit_dl,,dl,
+unit_l,,l,
+over_limit,,över mål,
+food_and_beverages,,mat &amp; dryck,
+motion_lowercase,,motion,
+yesterday,,Igår,
+today,,Idag,
+tomorrow,,Imorgon,
+left_to_eat,,kvar idag,
+add_food,,Lägg till i %1$s,
+search_only_foodstuff_hint,,Sök efter matvaror,
+sets,,set,
+item_updated_popup_message,,Uppdaterat,
+item_deleted_popup_message,,Borttagen,
+kcal_per_portion_top_description,,kcal/portion,
+instructions_title,,INSTRUKTIONER,
+ingredient_portions,,%1$s %2$s,
+ingredient_calories,,%1$d,
+ingredients_title,,INGREDIENSER,
+nutrition_dialog_title,,Ange näringsinnehåll,
+start_weight_label,,startvikt,
+latest_weight,,senaste vikt,
+planned_breakfast_menu,,Planerad frukostmeny,
+planned_lunch_menu,,Planerad lunchmeny,
+planned_dinner_menu,,Planerad middagsmeny,
+planned_snack_menu,,Planerade mellanmål,
+edit_food_save,,Uppdatera meny,
+timeframe_1m,,1 mån,
+timeframe_3m,,3 mån,
+timeframe_6m,,6 mån,
+timeframe_12m,,12 mån,
+profile_statistics,,Statistik över vikt &amp; mått,
+sp_welcome,,Då kör vi!,
+sp_pick_program_info1,,Här kommer några frågor om dig som utarbetats i samarbete med dietister och forskare vid Karolinska Institutet. ,
+sp_pick_program_info2,,Svaren gör att vi kan anpassa ditt viktprogram efter just dina behov!,
+sp_pick_program_question,,Vad är din målsättning?,
+sp_lose_weight_button,,Gå ner i vikt,
+sp_keep_weight_button,,Hålla min nuvarande vikt,
+sp_input_weight_info,,Min vikt är,
+sp_start_program_title,,Starta nytt program,
+sp_pick_diet,,Hur vill du äta?,
+sp_regular_diet,,Lika mycket varje dag,
+diet_5_2,,Enligt 5:2 metoden,
+sp_pick_gender,,Jag är,
+sp_female,,Kvinna,
+sp_male,,Man,
+sp_pick_birthday,,Jag föddes,
+sp_input_height,,Min längd är,
+sp_set_keep_weight_tolerance,,Vid vilken viktuppgång vill du få en varning?,
+sp_summary_restart_disclaimer,,Du kan när som helst ändra fastedagar och dina programinställningar i appen eller på webben.,
+weight_chart_header_title,,VIKT (%1$s),
+waist_chart_header_title,,MIDJA (%1$s),
+sp_cancel_title,,Vill du stänga?,
+sp_cancel_message,,Om du stänger appen nu sparas tyvärr inte dina svar.,
+sp_cancel_confirm,,Ja", fortsätt,
+sp_input_waist,,Mitt midjemått är,
+sp_input_waist_info,,Det är okej att uppskatta. Du kan uppdatera detta senare. %1$d cm är ca %2$s tum.,
+Waist,,Midjemått,
+sp_restart_title,,Kom igång,
+sp_title_lose_weight,,Viktminskning,
+sp_restart_cancel_title,,Vill du avbryta?,
+sp_restart_cancel_message,,Om du avbryter nu sparas inte dina svar.,
+incorrect_weight_dialog_title,,Ogiltig vikt,
+weight_too_low,,Den inmatade vikten är för låg. Välj ett värde över 30.,
+weight_too_high,,Den inmatade vikten är för hög. Välj ett värde under 300.,
+incorrect_waist_dialog_title,,Ogiltig mått,
+waist_too_low,,Det inmatade måttet är för lågt. Välj ett värde över 30.,
+waist_too_high,,Det inmatade måttet är för högt. Välj ett värde under 300.,
+clear_all,,Rensa allt,
+loading_widget_data,,Laddar widgetdata...,
+widget_sign_in_required_error,,Inloggning krävs,
+settings_my_program,,Mitt program,
+me,,Om,
+runkeeper,,Runkeeper,
+settings_ext_src_runkeeper_only_connection,,Hämta aktiviteter från Runkeeper dag för dag i loggboken.,
+settings_ext_src_strava_only_connection,,Hämta aktiviteter från Strava dag för dag i loggboken.,
+amount,,mängd,
+error_general,,Hoppsan! Något gick fel.,
+Partial_goal,,Delmål,
+favourites_empty_info_title,,Lägg till en favorit med,
+show_more,,Läs mer,
+sp_goal_weight_summary_weight_to_lose_header,,Din målvikt är,
+sp_deadline_week,,%1$d vecka,
+sp_calories_per_day,,%1$d kcal,
+sp_goal_weight_summary_info,,Med Viktklubb kan du gå ner 1 kg i veckan med rätt kost och regelbunden motion. Vi räknar först ut hur du kan minska i vikt med ett lägre kaloriintag. All motion blir sen en bonus som gör att du kan gå ner ännu snabbare än ditt viktprogram och samtidigt må bättre.\n\nDet är viktigt att hålla koll på målvikten och att vara tydlig med var du vill nå", men härefter kommer vi fokusera på ett delmål i taget för att du ska nå hela vägen!,
+sp_partial_goal_deadline_header_full,,kan du nå på,
+sp_edit_partial_goal_activity_weeks_header,,Med ett dagligt kaloriintag på,
+final_goal_reached_content_title,,Du har nått din målvikt %1$s,
+final_goal_reached_content_body,,Vi på Viktklubb vill gratulera dig för att du nått ända hit! Det finns ingen du ska tacka mer än dig själv", vilket fantastiskt jobb du har gjort.Ta en stund och fundera på allt du har lärt dig om dig själv och känn efter hur du mår nu. Vilka positiva effekter har din resa gett dig? Beröm och belöna dig själv", det är du verkligen värd.,
+partial_goal_reached_first_goal_in_sequence_content_title,,Du har klarat ditt första delmål %1$s. Ta en stund och tacka dig själv för att du lyckats!,
+partial_goal_reached_next_goal_in_sequence_content_title,,Du har klarat ditt delmål %1$s. Ta en stund och tacka dig själv för att du lyckats!,
+partial_goal_reached_last_goal_in_sequence_content_title,,Du har klarat ett till delmål %1$s. Ta en stund och tacka dig själv för att du lyckats!,
+first_partial_goal_reached_low_kcal_content_body,,Nu när du är lättare blir det lite tuffare att hålla samma tempo i din viktnedgång. Ditt energibehov minskar en aning när du går ner i vikt", men det kan du kompensera med bland annat mer motion. Ät inte upp alla kalorier du tränar för större effekt!,
+next_partial_goal_weight_header,,Ditt nästa viktdelmål är,
+next_partial_goal_date_header,,Du kan nå dit,
+next_partial_goal_date,,%1$d veckor (%2$s),
+next_partial_goal_subtitle,,(Du kan ändra målinställningar i menyn för viktprogram),
+next_partial_goal_is_last_goal_weight_header,,Ditt sista viktmål är,
+barcode_scanner,,Barcode scanner,
+pg_explanation1,,Delmål är ett sätt att dela upp resan för att den ska kännas lättare och roligare. Vägen till din målvikt (%1$s kg) delas därför upp i mindre steg på 3-4 kg i taget. Så snart du klarat ett delmål startar nästa", tills du har nått ända fram!,
+Example,,Exempel:,
+pg_explanation2,,Varje gång du får ett nytt delmål justeras din kalorinivå efter dina nya förutsättningar. Du kan också själv ändra delmålsinställningarna när du vill och se hur olika nivåer av kost och träning påverkar hastigheten just du kan gå ner i vikt.,
+first_partial_goal,,Ditt första viktdelmål,
+UpdateApp,,Uppdatera nu,
+dismiss,,Avfärda,
+pace_lower_than_week,,&lt; vecka,
+no_matching_records_found,,Inga träffar,
+monday_short,,mån,
+tuesday_short,,tis,
+wednesday_short,,ons,
+thursday_short,,tors,
+friday_short,,fre,
+saturday_short,,lör,
+sunday_short,,sön,
+Monday_short,,Mån,
+Tuesday_short,,Tis,
+Wednesday_short,,Ons,
+Thursday_short,,Tors,
+Friday_short,,Fre,
+Saturday_short,,Lör,
+Sunday_short,,Sön,
+create_food_activity_title,,Skapa eget livsmedel,
+create_food_name_title,,namn,
+create_food_calories_hint,,Kcal per 100g (obligatorisk),
+brand_hint,,Ange varumärke,
+create_food_protein_hint,,Protein (g) per 100g,
+create_food_carbohydrater_hint,,Kolhydrater (g) per 100g,
+create_food_alkohol_hint,,Alkohol (g) per 100g,
+create_food_fat_hint,,Fett (g) per 100g,
+create_food_enter_nutrient_button_title,,Ange näringsinnehåll,
+create_food_name_error_message,,Skriv in ett namn för ditt livsmedel,
+create_food_kcal_per_100_error_message,,Ange antal kcal per 100 g,
+create_food_custom_name_error_message,,Skriv in ett namn för din enhet,
+create_food_custom_unit_error_message,,Gram per enhet får inte vara 0,
+energy_content,,energiinehåll,
+brand_content,,Varumärke,
+unit,,enhet,
+unit_hint,,Förvald enhet (g),
+nutrition_error_total_value_message,,Näringsinnehållet kan inte överstiga 100 g. Ändra näringinnehållet för ditt livsmedel.,
+action_edit,,Redigera,
+create_foodstuff_custom_unit,,egen enhet...,
+info_recipe_updated,,Recept uppdaterat,
+weight_registered,,Vikt registrerad,
+waist_registered,,Midjemått registrerat,
+nutrition_donut_fat_legend,,Fett %1$s%%,
+nutrition_donut_carbohydrates_legend,,Kolhydrater %1$s%%,
+nutrition_donut_protein_legend,,Protein %1$s%%,
+nutrition_donut_alcohol_legend,,Alkohol %1$s%%,
+article,,Artikel,
+feed_tab_articles_header,,MER LÄSNING,
+feed_tab_meeting_places_header,,BLOGGAR,
+feed_meeting_places_button_text,,Läs &amp; skriv blogginlägg,
+log_recipe,,Logga recept,
+connection_error_popup_message,,Kopplingen misslyckades,
+favorite_recipes_empty_info,,Öppna recept du tycker om &amp; tryck på hjärtat till höger om namnet för att de ska visas här,
+keep_weight_plan_final_note,,Du kan när som helst ändra fastedagar om du har 5:2 och dina programinställningar i appen eller på webben.,
+lose_weight_plan_final_note,,Du kan när som helst ändra dagligt kaloriintag", fastedagar om du har 5:2 och dina programinställningar i appen eller på webben.,
+tutorial_recipe_filters,,Här kan du filtrera recept utifrån dina egna önskemål – t ex vegetariskt", glutenfritt eller maximalt antal kalorier.,
+tutorial_last_7_days_logbook_overview_toggle,,Du kan aktivera modulen igen under profilinställningar,
+fallback_555_message,,Appen behöver en uppdatering för att fungera ordentligt,
+create_recipe_cooking_time_label,,minuter tillagningstid,
+create_recipe_calories_label,,%1$d kcal/port,
+add_ingredients,,Lägg till ingredienser,
+edit_ingredients,,Ändra ingredienser,
+error_recipe_name_empty,,Skriv in ett namn för ditt recept,
+edit_tags,,Ändra kategorier,
+recipe_instructions_hint,,Instruktion för tillagning\n\n1. Steg för steg\n2.,
+edit_instructions,,Ändra instruktioner,
+manage_ingredients_calories_sum,,%1$d kcal,
+discard_recipe_warning_title,,Vill du radera detta recept?,
+discard_recipe_warning_message,,Om du väljer att fortsätta raderas ditt recept.,
+voice_search_title,,Prata nu,
+food_logging_persistence,,Loggad mat &amp; dryck,
+food_logging_persistence_info_message,,I den här vyn får du en översikt av de dagar du har loggat någon typ av mat eller dryck. När du loggat mat eller dryck en dag", visas detta genom en bock. Bocken visas grön om du håller dig inom 100 kcal ifrån ditt rekommenderade dagsintag. Understiger du rekommendationen ytterligare visas bocken orange och överstiger du med mer än 100 kcal", blir den röd.\n\nPå Viktklubb rekommenderar vi att du loggar allt som du äter och dricker. Ju mer exakt du är i din loggning desto mer kontroll får du över din viktnedgång.,
+food_logging_calories_and_activities_info_message,,I den här vyn får du en översikt av hur många kalorier du har loggat per vecka. När du loggar mer kalorier än din dagliga rekommendation enligt ditt program", blir grafen röd. När du loggat motion visas detta genom en bock i den undre raden. Du ser även genomsnittet för loggad mat de senaste 4 veckorna som referens via de grå staplarna.,
+food_logging_calories_and_activities_empty_chart_label,,Inget loggat än,
+food_logging_calories_and_activities_chart_legend_current_week,,nuvarande vecka,
+food_logging_calories_and_activities_chart_legend_last_4_weeks,,snitt 4 veckor,
+activity_logging_persistence_info_message,,I den här vyn får du en översikt av de dagar du har loggat motion. Grafen visar alltid de senaste 4 veckorna – inklusive den nuvarande veckan. När du har loggat motion för en dag", visas detta genom en bock.\n\nPå Viktklubb rekommenderar vi att hitta tillfällen att motionera i din vardag för att öka den totala aktiviteten. Ta trapporna istället för hissen", stå upp framför datorn och ta varje chans till en promenad. Vår rekommendation är minst 30 min ihållande aktivitet per dag.,
+week_vs_month_3_weeks,,medel 3 veckor,
+week_vs_month_7_days,,medel 7 dagar,
+week_vs_month_food_logging_info_message,,I den här vyn får du genomsnittet av de dagar du har loggat mat och dryck. Den första siffran visar genomsnittet de senaste 7 dagarna och den andra siffran visar de senaste 3 veckorna. \n\nPå Viktklubb rekommenderar vi att du loggar allt du äter och dricker. Ju mer exakt du är i din loggning", desto mer kontroll får du över din viktnedgång. Men vi vet att det inte är så lätt. Börja med att logga en måltid per dag", den som är viktigast för dig för att få koll på kalorierna.,
+week_vs_month_activity_logging_info_message,,I den här vyn får du ett genomsnitt av de dagar du har loggat motion. Den första siffran visar hur många dagar du motionerat de senaste 7 dagarna. Den andra siffran visar genomsnittet av hur många dagar du motionerat de senaste 3 veckorna.\n\nPå Viktklubb rekommenderar vi att hitta tillfällen att motionera i din vardag för att öka den totala aktiviteten. Ta trapporna istället för hissen", stå upp framför datorn och ta varje chans till en promenad. Vår rekommendation är minst 30 min ihållande aktivitet per dag.,
+food_logging_stats_title,,Statistik över mat &amp; dryck,
+profile_section_statistics,,Min statistik,
+action_create,,Logga manuellt,
+do_you_like_app_question,,Vad tycker du om Viktklubb?,
+do_you_like_app_message,,Berätta för oss hur du upplever vår app!,
+ask_for_review_initial_positive_button,,Jag är nöjd,
+ask_for_review_initial_negative_button,,Kan bli bättre,
+ask_for_review_positive_button,,Utvärdera appen,
+ask_for_review_feedback_positive_button,,Lämna feedback,
+ask_for_review_initial_title,,Vad tycker du om Viktklubb?,
+ask_for_review_title,,Vad bra!,
+ask_for_review_feedback_title,,Vad kan vi göra bättre?,
+ask_for_review_initial_message,,Berätta för oss hur du upplever vår app!,
+ask_for_review_message,,Hjälp oss gärna att utvärdera vår app i Google Play.,
+ask_for_review_feedback_message,,Hjälp gärna oss genom att berätta vad du saknar och hur vi kan förbättras på feedback@viktklubb.se,
+feedback_email_subject,,Viktklubb feedback,
+per_100_g,,Per 100 g,
+macronutrient_gram_value,,%1$s g,
+per_recipe_portion,,Per portion (ca %1$s g),
+per_recipe_portion_unknown_mass,,Per Portion,
+weight_plan_basics_warning_goal,,varning vid,
+weight_plan_basics_plan_kg_unit,,%1$s kg,
+runkeeper_connection_switch_on,,Kopplad med Runkeeper,
+strava_connection_switch_on,,Kopplad med Strava,
+weight_plan_restart,,Börja om ditt program,
+weight_plan_description_lose_weight,,Från %1$s till %2$s tills den %3$s,
+weight_plan_description_keep_weight,,Från %1$s kg med varning på +%2$s kg,
+partial_goals_goal_description_with_end_date,,Från %1$s till %2$s tills den %3$s,
+kg_int,,%1$d kg,
+kg_string,,%1$s kg,
+current_partial_goal_title,,Mitt pågående delmål (%1$d/%2$d),
+partial_goal_perfect_line_legend,,förväntad viktminskning för detta delmål,
+partial_goal_weight_line_legend,,min viktminskning för detta delmål,
+keep_weight_plan_weight_line_legend,,min vikt,
+partial_goal_remaining_weight,,%1$s kg kvar,
+week_number,,v%1$d,
+program_starts,,Program startades,
+partial_goals_plan_end,,Jag når min målvikt,
+partial_goals_goal_name,,Delmål %1$d/%2$d,
+keep_weight_plan_header,,Mitt pågående program,
+pick_fast_days_header,,Välj 2 fastedagar,
+weight_plan_started,,Program startat,
+Dismiss,,Avfärda,
+calories_circle_left_of,,kvar av,
+calories_circle_over,,över,
+min_int,,%1$d min,
+kcal_int,,%1$d kcal,
+bmi_string,,%1$s BMI,
+change_cover,,Ändra bild,
+pick_cover_chooser_title,,Välj en ny bild,
+reps_string,,%1$s reps,
+sets_string,,%1$s reps,
+min_string,,%1$s min,
+meal_summary_items_section_title,,Loggat %1$s,
+turn_on_flashlight,,Aktivera ficklampan,
+chart_no_data_general_error,,Ingen data finns tillgänglig,
+error_empty_weight_chart,,Du har inte loggat någon vikt under vald tidsperiod,
+error_empty_waist_chart,,Du har inte loggat något midjemått under vald tidsperiod,
+logbook_nutritions_recommended_grams_column_title,,Rekommenderat (g),
+logbook_nutritions_recommended_kcal_column_title,,Rekommenderat (kcal),
+logbook_nutritions_mass_grams_column_title,,Vikt (g),
+deleting_progress_message,,Tar bort…,
+copy_items_button_title,,Kopiera %1$s kcal till %2$s %3$s,
+commonly_logged_category_dropdown_breakfast,,Dina vanliga frukostval,
+commonly_logged_category_dropdown_lunch,,Dina vanliga lunchval,
+commonly_logged_category_dropdown_dinner,,Dina vanliga middagsval,
+commonly_logged_category_dropdown_snack,,Dina vanliga mellanmål,
+search_food_query_hint,,Sök livsmedel", recept eller varumärke,
+search_activity_cardio_tab_title,,Kondition,
+search_activity_strength_tab_title,,Styrka,
+action_add_to_favorites,,Lägg till favoriter>,
+action_remove_from_favorites,,Ta bort favoriter,
+portions_short,,port.,
+log_food_log_button_title,,Logga %1$s kcal till %2$s %3$s,
+log_cardio_activity_log_button_title,,Logga %1$s min till motion %2$s,
+log_strength_activity_log_button_title,,Logga till motion %1$s,
+connect_barcode_button_tittle,,Koppla till streckkod,
+connect_barcode_kcals,,%1$d kcal/100g,
+partial_goal_date_finished,,Avslutades den %1$s,
+partial_goal_date_until,,Pågår till %1$s,
+partial_goals_plan_end_date,,Beräknat slutdatum:\n%1$s*,
+legend_partial_goal_expected_line,,nuvarande prognos för detta delmål,
+toast_logged,,Tillagd i {category},
+favorite_added,,Tillagd i favoriter,
+favorite_removed,,Borttagen från favoriter,
+navigation_commonly_logged_action_title,,Tidigare loggat,
+edit_cover_reset_default,,Återgå till standardbild,
+edit_cover_pick_custom,,Välj egen,
+rating_number_of_ratings,,(%1$d röster),
+filters_empty_nothing_set_info,,Sök efter recept eller skapa ditt personliga receptfilter.,
+filters_section_action_set,,Lägg till,
+filters_section_max_kcal_title,,Max kcal/portion,
+recipe_filters_merged_with_search_tutorial_title,,Vi har flyttat receptfiltreringen,
+recipe_filters_merged_with_search_tutorial_description,,Dina personliga receptfilter är nu inbyggda i sökfunktionen. Filtrera recept på t ex vegetariskt", glutenfritt eller maximalt antal kalorier. Kolla in och testa det nya söket här!,
+filters_clear_all_warning,,Är du säker? Om du fortsätter kommer du att ta bort dina personliga receptfilter.,
+tags_clear_all_warning,,Är du säker? Om du fortsätter kommer du att ta bort de valda kategorierna för detta recept.,
+mp_latest_posts_tab_title,,Senaste,
+mp_experts_posts_tab_title,,Experter,
+mp_popular_posts_tab_title,,Populära,
+mp_user_posts_tab_title,,Min blogg,
+mp_by_user,,av %1$s,
+mp_blogs_beta_entry_point_button_title,,Läs &amp; skriv blogginlägg BETA,
+mp_time_interval_day,,Idag,
+mp_time_interval_week,,Senaste veckan,
+mp_time_interval_month,,Senaste månden,
+mp_time_interval_total,,Totalt,
+mp_post_editor_header,,Rubrik,
+mp_post_editor_body,,Text,
+mp_post_editor_allow_comments,,Tillåt kommentarer,
+mp_create_post_activity_title,,Skriv blogginlägg,
+mp_edit_post_activity_title,,Ändra blogginlägg,
+mp_post_editor_empty_header_error,,Ange rubrik,
+mp_post_editor_empty_body_error,,Ange text,
+mp_posts_user_list_empty,,""Du har inte skrivit något blogginlägg. Skriv ett blogginlägg genom att klicka på pennan här nedanför."",
+mp_post_comments_no_comments,,""Det finns inga kommentarer på detta blogginlägg. Var först med att kommentera på detta blogginlägg!"",
+mp_more_connected_posts,,Mer av denna bloggare,
+mp_blog_post_comments_not_loaded,,Kommentarer,
+mp_blog_post_comments,,Kommentarer (%1$d),
+mp_register_alias_title,,Välj ett smeknamn,
+mp_register_alias_message,,Här väljer du ett smeknamm", dvs vad du ska kallas om du gör inlägg på mötesplatsen.,
+mp_register_alias_input_hint,,Smeknamn,
+mp_register_alias_input_too_few_chars_error,,Ditt smeknamn måste innehålla minst 3 tecken,
+mp_register_alias_input_forbidden_chars_error,,Smeknamnet innehåller otillåtna tecken,
+mp_blog_post_edit_action_title,,Edit blog post,
+mp_blog_post_edit_action_open_in_browser,,Öppna i webbläsaren,
+mp_blog_post_remove_action_title,,Remove blog post,
+mp_blog_post_write_comment_title,,Kommentarer,
+mp_blog_post_write_comment_input_hint,,Skriv kommentar,
+time_moment_ago,,Alldeles nyss,
+time_yesterday,,Igår kl. %1$s,
+time_this_year_but_not_yesterday,,%1$s kl. %2$s,
+planned_food_activity_title,,Meny för %1$s,
+tutorial_recipe_gallery_title,,Se hela receptbilden,
+tutorial_recipe_gallery_description,,Nu kan du klicka på receptbilden för att visa den i helskärmsläge. Smaklig måltid!,
+error_unsupported_play_services,,Den här enheten stöds inte för de nödvändiga Google Play-tjänsterna,
+sp_healthy_goal_weight_html,,Viktklubb använder BMI (Body Mass Index) för att uppskatta normalvikt i relation till din längd. Det fungerar bra som en indikation men bör tas med en nypa salt då alla kroppar är olika.\n\nFör just dig uppskattas %1$d-%2$d kg vara normalvikt.\n\nEtt BMI på mindre än 20 innebär sällan att det finns någon orsak att minska i vikt och därför erbjuder vi inte viktminskningsprogram där målvikten ger dig ett BMI under 20.\n\nEtt normalt BMI ligger på omkring 20-25 men det betyder inte att man inte kan leva ett hälsosamt liv med ett högre BMI än så. Lyssna på din kropp!,
+sp_about_bmi,,Viktklubb använder BMI (Body Mass Index) för att uppskatta normalvikt i relation till din längd. Det fungerar bra som en indikation men bör tas med en nypa salt då alla kroppar är olika.\n\nDu har angett att du väger %1$s (BMI %2$s) och är redan normalviktig.\n\nDet finns inga medicinska skäl för dig att gå ner mer i vikt då normalvikt ligger på 20-25 BMI. Om du vill kan du byta till ett program för att hålla vikten istället.,
+sp_min_weight_reached_html,,Viktklubb använder BMI (Body Mass Index) för att uppskatta normalvikt i relation till din längd. Det fungerar bra som en indikation men bör tas med en nypa salt då alla kroppar är olika.\n\nPå Viktklubb måste du ha ett BMI på minst 20 för att starta ett program då 20-25 är uppskattad normalvikt.\n\nDu har angett att du väger %1$s (BMI %2$s)  och är redan normalviktig.\n\nDet finns inga medicinska skäl för dig att gå ner mer i vikt då normalvikt ligger på 20-25 BMI. Om du vill kan du byta till ett program för att hålla vikten istället. Vi rekommenderar att du byter till ett program för att hålla vikten istället då du inte kommer kunna gå ner mycket mer utan att hamna under 20 BMI.,
+sp_pace_warning_title,,Energiintag &amp; förbränning,
+sp_pace_above_1kg,,Vi rekommenderar ett dagligt kaloriintag på %1$d-%2$d för kvinnor och %3$d-%4$d för män. Med ett större energiunderskott enbart genom kostförändringar riskerar du att inte få i dig den näring du behöver.\n\nHur snabbt du förbränner energi beror på flera saker", bland annat på din ålder", vikt och längd. Det betyder att alla inte kan gå ner 1kg/veckan bara genom att ändra kosten. Men du kan öka din förbränning med mer motion och ökad muskelmassa.\n\nNär vi uppskattar hur mycket du bör äta för att minska i vikt är motion alltså inte inräknat", så allt extra du rör på dig blir en bonus! Om du vill gå ner med en snabbare takt än vad du kan påverka med vad du äter och dricker", rekommenderar vi därför att du motionerar mer utan att äta upp alla dina motionskalorier. Det kan göra en enorm skillnad,
+sp_max_pace_below_1kg,,Vi rekommenderar ett kaloriintag på minst 1300 kcal/dag. Med ett större energiunderskott enbart genom kostförändringar riskerar du att inte få i dig den näring du behöver. För dig innebär det en uppskattad viktminskning på mer än 1 kg/veckan vilket kan betyda ganska stora omställningar i kosten. När du äter mindre är det därför extra viktigt att du också äter bra", för att du ska få i dig all den näring du behöver.\n\nHur snabbt du förbränner energi beror på flera saker", bland annat din ålder", vikt och längd. Vi räknar också in att du har en grundläggande vardagsmotion för att du går till bussen", städar eller kanske busar med barn. Men du kan också öka din förbränning med mer motion och ökad muskelmassa.\n\nNär vi uppskattar hur mycket du bör äta för att minska i vikt är alltså motion inte inräknat", så allt extra du rör på dig blir en bonus! Om du vill gå ner med en snabbare takt än vad du kan påverka med vad du äter och dricker", rekommenderar vi därför att du motionerar mer utan att äta upp alla dina motionskalorier.,
+,AFTCalorieContextItemViewController.unit_picker_title,,VÄLJ ENHET
+,AFTCalorieContextItemViewController.add_to_favourites,,Lägger till i favoriter
+,AFTCalorieContextItemViewController.remove_from_favourites,,Tar bort från favoriter
+,AFTCalorieContextItemViewController.barcodeConnected,,Streckkod kopplad
+,ExerciseViewController.logStrengthButtonTemplate,,Logga till %1$@ %2$@
+,QuickLogViewController.quickLog,,Snabblogga
+,QuickLogViewController.logButtonTemplate,,Logga till %1$@ %2$@
+,ConnectBarcodeViewController.connectBarcodeButton,,Koppla streckkod
+,ConnectBarcodeViewController.per100g,,/100g
+,exercise,,Motion
+,port,,Portion
+,kcal,,kcal
+,minutesShort,,min
+,sets,,sets
+,kg,,kg
+,AFTLogbookTableDataSource.kcal,,kcal
+,LogbookViewController.kcalLeftTemplate,,kvar av\n%1$@
+,LogbookViewController.kcalOverTemplate,,kcal över\n%1$@
+,LogbookViewController.grams,,(g)
+,LogbookViewController.weight,,Vikt
+,LogbookViewController.recommended,,Rekommenderat
+,LogbookViewController.percent,,\UFF05
+,LogbookViewController.kcalBracketed,,(kcal)
+,LogbookViewController.kcal,,kcal
+,LogbookViewController.kcalTrainedTemplate,,%1$@ kcal
+,LogbookViewController.dailyNoteTitle,,Anteckning
+,DailyNoteViewController.placeholder,,Skriv din anteckning här
+,LoggedSummaryViewController.loggedFood,,Loggad mat & dryck
+,AFTExerciseItem.min,,min
+,SelectFoodViewController.favourites,,Favoriter
+,SelectFoodViewController.own,,Eget
+,SelectFoodViewController.plannedMenu,,Meny
+,SelectFoodViewController.plannedMenuSection,,Planerad Meny
+,SelectFoodSearch.recipe,,Recept
+,SelectFoodSearch.noResultsFoodstuff,,Tyvärr hittade vi inte det du söker. Kolla stavningen eller prova ett annat sökord.
+,MealViewController.copyButtonTemplate,,Kopiera %1$@ till %2$@ %3$@
+,AFTRecipeSuggestionsViewController.title,,Recept
+,AFTRecipeSuggestionsViewController.createRecipe,,Skapa eget recept
+,AFTRecipeSuggestionsViewController.limit,,Visar %1$@ av max %2$@ resultat. Begränsa ditt filter ytterligare för att få alla träffar.
+,RecipesViewController.title,,Recept
+,RecipesSearchViewController.addFilters,,LÄGG TILL
+,RecipeSuggestionsSelectFiltersViewController.mealType,,Måltid
+,RecipeSuggestionsSelectFiltersViewController.unrestricted,,Obegränsat
+,RecipeSuggestionsSelectFiltersViewController.selectFilter,,Välj filter
+,RecipeSuggestionsSelectFiltersViewController.clearAll,,Rensa alla
+,RecipeSuggestionsSelectFiltersViewController.title,,Filtrera
+,RecipeFilterEmptyTableViewCell.emptyResults,,Tyvärr matchade inga recept dina filter. Gör filtret mindre specifikt för att få fler träffar.
+,UserRecipeEmptyTableViewCell.emptyResults,,Du har inte skapat några egna recept ännu. Lägg till de du ofta lagar för att kunna logga ännu lättare i framtiden!
+,AFTRecipeDetailsViewController.missing_instructions,,Receptet saknar instruktioner
+,RecipeDetailsViewController.instructions,,Instruktioner
+,RecipeDetailsViewController.ingredients,,Ingredienser
+,RecipeDetailsViewController.kcalPerPortion,,KCAL/PORT
+,RecipeDetailsViewController.amount,,MÄNGD
+,RecipeDetailsViewController.logButtonTemplate,,Logga %1$@ till %2$@ %3$@
+,RecipeDetailsViewController.ratingTemplate,,%1$@ (%2$@ röster)
+,ProfileViewController.registerPopupSaveWeightButton,,Spara vikt
+,ProfileViewController.registerPopupSaveWeightTitle,,Ange vikt vecka %1$@
+,ProfileViewController.registerPopupUpdateWeightButton,,Spara ny vikt
+,ProfileViewController.registerPopupUpdateWeightTitle,,Ändra vikt vecka %1$@
+,ProfileViewController.registerPopupUpdateWeightInfo,,Det går bara att spara ett viktmått per vecka. Den nya vikten skriver över föregående vikt.
+,ProfileViewController.headerTitleActivePartialGoal,,MITT PÅGÅENDE DELMÅL (%1$@/%2$@)
+,ProfileViewController.headerTitleKeepWeightGraph,,MITT PÅGÅENDE PROGRAM 
+,ProfileViewController.goalLossLeftTemplate,,%1$@ kvar
+,ProfileViewController.headerTitleStatistics,,MIN STATISTIK
+,ProfileViewController.bodyStatisticsButton,,Statistik över vikt och mått
+,ProfileViewController.foodStatisticsButton,,Statistik över mat & dryck
+,ProfileViewController.exerciseStatisticsButton,,Statistik över motion
+,ProfileViewController.untilTemplate,,tills den %1$@
+,ProgramSummaryViewController.title,,Mitt viktprogram
+,ProgramSummaryViewController.startWaist,,Startmidjemått
+,ProgramSummaryViewController.startProgram,,Starta om mitt program
+,ProgramSummaryViewController.keepWeightGoalTemplate,,Från %1$@ med varning på %2$@
+,ProgramSummaryViewController.startProgramWarningTitle,,Ta bort avklarade delmål?
+,ProgramSummaryViewController.startProgramWarningMessage,,Om du väljer att starta om ditt program tar du även bort dina tidigare avklarade delmål. Genom att starta om ditt program får du möjlighet att sätta en ny startvikt samt ändra annan programinformation. Du kan även välja att starta ett annat typ av program (t ex hålla vikten).
+,PartialGoalsViewController.goalNumberTemplate,,DELMÅL %1$@/%2$@
+,PartialGoalsViewController.achievedTemplate,,Avklarad den %1$@
+,PartialGoalsViewController.inProgressTemplate,,Tills den %1$@
+,PartialGoalsViewController.endDate,,Slutdatum:
+,SettingsViewController.title,,Inställningar
+,SettingsViewController.aboutHeader,,Om Appen
+,SettingsViewController.versionTemplate,,(%1$@)
+,SettingsViewController.externalSourceButtonTemplate,,Koppla med %1$@
+,SettingsViewController.externalSourceOneOn,,Hämta aktiviteter från %1$@ dag för dag i loggboken.
+,SettingsViewController.logoutConfirmationTitle,,Är du säker på att du vill\nlogga ut?
+,AFTExternalSourceAuthorizationViewController.title.runKeeper,,RunKeeper
+,AFTExternalSourceAuthorizationViewController.title.strava,,Strava
+,AFTLoginEmailViewController.userEmail,,E-postadress
+,AFTLoginEmailViewController.password,,Lösenord
+,AFTMeetingPlacesViewController.pageTitle,,Bloggar
+,AFTLoginEmailViewController.loginWithYourVKAccount,,Logga in med ditt Viktklubb-konto
+,AFTForgotPasswordController.forgotPassword,,Glömt lösenord
+,AFTForgotPasswordViewController.changePasswordTitle,,Byt lösenord
+,AFTForgotPasswordViewController.changePasswordInstructionsSentDescription,,Vi har skickat information om hur du ändrar ditt lösenord till din adress. Följ bara instruktionerna som du snart kommer få.
+,AFTTermsViewController.usageTermsTitle,,Användarvillkor
+,AFTSearchItem.defaultUnitForRecipe,,portion
+,UIViewController.AFTConfirmation.addedTo,,Tillagd i %1$@
+,UIViewController.AFTConfirmation.mealAddedTo,,Måltiden tillagd i %1$@
+,UIViewController.AFTConfirmation.itemRemoved,,Inlägg raderat
+,UIViewController.AFTConfirmation.itemUpdated,,Inlägg uppdaterat
+,UIViewController.AFTConfirmation.foodDeleted,,Livsmedel raderat
+,UIViewController.AFTConfirmation.externalSourceItems,,Hämtade %1$@ %2$@-aktiviteter
+,UIViewController.AFTConfirmation.calorieRestrictedDaysUpdated,,Fastedagar ändrade
+,UIViewController.AFTConfirmation.paceLevelUpdated,,Delmål uppdaterat
+,UIViewController.cameraAccessCheckTitle,,Åtkomst till kamera
+,UIViewController.cameraAccessCheckMessage,,Du har inte godkänt Viktklubb åtkomst till kameran. Vill du öppna inställningar för att ändra detta?
+,AFTNSDate.yesterday,,igår
+,AFTNSDate.tomorrow,,imorgon
+,AFTEnergyDistribution.fat,,Fett
+,AFTEnergyDistribution.carbs,,Kolhydrater
+,AFTEnergyDistribution.protein,,Protein
+,AFTEnergyDistribution.alcohol,,Alkohol
+,AFTStartProgramTypeNumberViewController.waistComment,,Det är okej att uppskatta ditt midjemått. Du kan uppdatera detta senare. %1$@ cm är ca %2$@ tum.
+,AFTStartProgramSliderViewController.sliderValue,,+ %1$@ kg
+,AFTStartProgramCalorieLevelsViewController.weeksUntilGoal,,%1$@ (%2$@)
+,AFTStartProgramCalorieLevelsViewController.weeksUntilGoalUndefined,,- veckor (-)
+,AFTStartProgramCalorieLevelsViewController.goalKcalPerDay,,%1$@ kcal
+,AFTStartProgram.finalGoalWeight,,%1$@ kg (%2$@ kg)
+,AFTStartProgramPartialGoalViewController.weightLabelFirstPartialGoal,,Ditt första delmål
+,AFTStartProgramPartialGoalViewController.goalInfoTemplate,,från %1$@ till %2$@
+,AFTStartProgramPartialGoalViewController.targetDateTemplate,,kan du nå till den %1$@
+,StartProgramSummaryViewController.info,,Du kan när som helst ändra ditt dagliga kaloriintag", dina fastedagar om du använder 5:2 metoden och dina programinställningar i appen eller på webben.
+,AFTSelectDaysProfileViewController.oneDayInfo,,Den nu pågående veckan kommer bara visa 1 fastedag på grund av dina ändringar.
+,AFTSelectDaysProfileViewController.twoDaysAdjecentInfo,,Den nu pågående veckan kommer visa 2 på varandra följande fastedagar på grund av din ändringar.
+,AFTSelectDaysProfileViewController.threeDaysInfo,,Den nu pågående veckan kommer visa 3 fastedagar på grund av dina ändringar.
+,EditorialViewController.title,,Mötesplatsen
+,EditorialViewController.allBlogs,,Läs & skriv blogginlägg
+,CreateFoodStuff.nameLabel,,Namnge
+,CreateFoodStuff.kcalPer100GTitle,,Energiinnehåll
+,CreateFoodStuff.obligatoryPlaceholder,,Obligatoriskt
+,CreateFoodStuff.kcalPer100GComment,,Kcal per 100 g
+,CreateFoodStuff.selectUnitTitle,,Välj enhet
+,CreateFoodStuff.unitTitle,,Enhet
+,CreateFoodStuff.customUnit,,Egen enhet
+,CreateFoodStuff.editFood,,Redigera matvara
+,CreateFoodStuff.deleteFood,,Radera matvara
+,CreateFoodStuff.per100g,,per 100 g
+,CreateFoodStuff.nutrients,,Näringsinnehåll
+,CreateFoodStuff.enterNutrients,,Ange
+,CreateRecipe.categories,,Kategorier
+,CreateRecipe.tagsHeaderTitle,,VÄLJ KATEGORIER
+,CreateRecipe.ingredientsSearchPlaceholder,,Sök efter ingredienser
+,CreateRecipe.instructionsPlaceholder,,Instruktion för tillagning\n1. Steg för steg\n2. ...
+,CreateRecipe.scanBarcode,,Scanna streckkod
+,BarcodeScanViewController.scanHere,,Scanna streckkod här
+,BarcodeScanViewController.cantScanTitle,,Kan inte scanna
+,BarcodeScanViewController.cantScanMessage,,Din enhet behöver en kamera för att kunna scanna streckkoder.
+,LoggingStatistics.titleFoodStuff,,Statistik över mat & dryck
+,LoggingStatistics.loggedFoodStuff,,loggad mat & dryck
+,LoggingStatistics.loggedKcal,,loggade kcal
+,LoggingStatistics.loggedExercise,,loggad motion
+,LoggingStatistics.changePaceTitle,,Vill du äta mer eller mindre?
+,LoggingStatistics.changePaceMessage,,Du kan påverka slutdatumet för ditt mål genom att ändra ditt dagliga kaloriintag
+,BodyStatisticsViewController.title,,Statistik
+,BodyStatisticsViewController.weightDateRange,,VIKT (%1$@ - %2$@)
+,BodyStatisticsViewController.waistDateRange,,MIDJA (%1$@ - %2$@)
+,BodyStatisticsViewController.registerWeight,,Registrera vikt
+,BodyStatisticsViewController.monthSegmentTemplate,,%1$@ mån
+,BodyStatisticsViewController.updateWeightButton,,Uppdatera vikt
+,BodyStatisticsViewController.updateWeightPopupTitle,,Ändra vikt
+,BodyStatisticsViewController.updateWaistButton,,Uppdatera midjemått
+,BodyStatisticsViewController.registerWaistPopupTitle,,Ange midjemått
+,AFTNotifications.firstPartialGoal,,första 
+,NotificationViewController.youreAlmostThere,,Du är nästan där!
+,NotificationViewController.next,,Nästa
+,NotificationViewController.goalCompleteTemplate,,Du har klarat ditt %1$@delmål %2$@. Ta en stund och tacka dig själv för att du har lyckats!
+,InfoViewController.editPaceTitle,,Energiintag & förbränning
+,AFTWeeks.lessThanOneWeek,,<1 vecka
+,PlaceholderMessage.addFavouriteFoodRecipe,,Öppna recept eller matvaror du tycker om & tryck på hjärtat till höger på toppen av sidan för att de ska visas här.
+,PlaceholderMessage.addFavouriteRecipe,,Öppna recept du tycker om & tryck på hjärtat till höger på toppen av sidan för att de ska visas här.
+,PlaceholderMessage.oftenLoggedFood,,Sök och logga något.\nHär syns sedan det du loggar ofta.
+,PlaceholderMessage.oftenLoggedExercise,,Sök och logga något.\nHär syns sedan det du loggar ofta.
+,PlusViewController.logged,,Tidigare
+,NSError.ajdaTitle,,Ajdå!
+,NSError.backend_problem_title,,Lyckas inte ansluta
+,NSError.not_connected_to_internet_title,,Hittade inget nätverk
+,NSError.unverified_user_title,,Kolla din mail!
+,NSError.externalSourceSyncAuthtokenErrorTitle,,Förnya koppling till %1$@
+,NSError.externalSourceNoConnectionToSetupErrorTitle,,Sätt upp koppling till %1$@
+,NSError.server.error.message,,Någonting gick fel. Försök igen om en stund
+,NSError.backend_problem_message,,Det går inte att ansluta till viktklubbs databas just nu", försök snart igen.
+,NSError.not_connected_to_internet_message,,Tyvärr går det inte att logga utan internetanslutning än.
+,NSError.unverified_user_message,,Du behöver verifiera ditt Schibsted-konto för att logga in.
+,NSError.invalid_user_credentials_message,,Tyvärr kände vi inte igen dina inloggningsuppgifter. Kontrollera din mail och ditt lösenord och försök igen.
+,NSError.not_connected_to_internet_logged_out_message,,Kontrollera din uppkoppling och försök igen.
+,NSError.not_viktklubb_member_error_message,,Du behöver vara medlem i Viktklubb för att kunna logga in.
+,NSError.user_service_error_not_logged_in_message,,Du behöver vara medlem i Viktklubb för att kunna logga in.
+,NSError.user_service_error_logged_in_message,,Försök igen senare
+,NSError.bad_request_something_went_wrong,,Någonting gick fel.
+,NSError.externalSourceAuthtokenErrorMessage,,Kontakten med %1$@ är bruten. Sätt upp en ny i inställningar.
+,NSError.externalSourceNoConnectionToSetupErrorMessage,,Det finns ingen kontakt med %1$@. Sätt upp en i inställningar.
+,NSError.notAnEmailAddressError,,Det där ser inte ut som en mailadress", kontrollera stavningen och försök igen!
+,general.back,,Tillbaka
+,general.close,,Stäng
+,general.update,,Uppdatera
+,general.logout,,Logga ut
+,general.later,,Sen
+,general.delete,,Ta bort
+,general.create,,Skapa
+,general.loading,,Laddar
+,externalSources.RunKeeper,,RunKeeper
+,general.shortWeekDays,,mån",tis",ons",tors",fre",lör",sön
+,Hint.Barcode.HintText,,Logga mat snabbt och enkelt. Scanna streckkoden på förpackningen här.
