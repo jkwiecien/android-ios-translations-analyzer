@@ -1,4 +1,4 @@
-# What's this
+# What's this?
 It's a kotlin script that compares android and ios localisation files. It might be useful while merging localisation resources of Android and iOS to shared keys and values.
 
 # Usage
