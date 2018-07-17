@@ -2,11 +2,16 @@ package com.schibsted.stringsmerger
 
 import com.opencsv.CSVWriter
 import java.io.File
+import java.io.Writer
 import java.nio.charset.Charset
 import java.nio.file.Files
 import java.nio.file.StandardOpenOption
 
+lateinit var exportFolder: File
+
 fun main(args: Array<String>) {
+    exportFolder = File(args[2])
+
     val androidStringsPool = mutableMapOf<String, String>()
     val androidFile = File(args[0])
 
@@ -75,18 +80,18 @@ private fun findIdenticalValues(androidStringsPool: MutableMap<String, String>, 
         iOsStringsPool.remove(key.iosKey)
     }
 
-    val file = File("csv", "identical.csv")
+    val file = File(exportFolder, "identical.csv")
     if (file.exists()) file.delete()
-    val identicalStringsFileWriter = Files.newBufferedWriter(file.toPath(), Charset.forName("UTF-8"), StandardOpenOption.CREATE)
+    val fileWriter = Files.newBufferedWriter(file.toPath(), Charset.forName("UTF-8"), StandardOpenOption.CREATE)
     try {
-        val identicalStringsCsvWriter = CSVWriter(identicalStringsFileWriter, CSVWriter.DEFAULT_SEPARATOR, CSVWriter.NO_QUOTE_CHARACTER, CSVWriter.DEFAULT_ESCAPE_CHARACTER, CSVWriter.DEFAULT_LINE_END)
+        val csvWriter = getCsvWriter(fileWriter)
         val header = arrayOf("android key", "iOS key", "new key", "value")
-        identicalStringsCsvWriter.writeNext(header)
+        csvWriter.writeNext(header)
         identicalStrings.forEach { key, value ->
-            identicalStringsCsvWriter.writeNext(arrayOf(key.androidKey, key.iosKey, "", value))
+            csvWriter.writeNext(arrayOf(key.androidKey, key.iosKey, "", value))
         }
     } finally {
-        identicalStringsFileWriter.flush()
+        fileWriter.flush()
     }
 }
 
@@ -113,40 +118,44 @@ private fun findSimilarValues(androidStringsPool: MutableMap<String, String>, iO
         iOsStringsPool.remove(key.iosKey)
     }
 
-    val file = File("csv", "similar.csv")
+    val file = File(exportFolder, "similar.csv")
     if (file.exists()) file.delete()
-    val identicalStringsFileWriter = Files.newBufferedWriter(file.toPath(), Charset.forName("UTF-8"), StandardOpenOption.CREATE)
+    val fileWriter = Files.newBufferedWriter(file.toPath(), Charset.forName("UTF-8"), StandardOpenOption.CREATE)
     try {
-        val identicalStringsCsvWriter = CSVWriter(identicalStringsFileWriter, CSVWriter.DEFAULT_SEPARATOR, CSVWriter.NO_QUOTE_CHARACTER, CSVWriter.DEFAULT_ESCAPE_CHARACTER, CSVWriter.DEFAULT_LINE_END)
+        val scvWriter = getCsvWriter(fileWriter)
         val header = arrayOf("android key", "android value", "iOS key", "iOS value")
-        identicalStringsCsvWriter.writeNext(header)
+        scvWriter.writeNext(header)
         similarStrings.forEach { key, value ->
-            identicalStringsCsvWriter.writeNext(arrayOf(key.androidKey, value.androidValue, key.androidKey, value.iosValue))
+            scvWriter.writeNext(arrayOf(key.androidKey, value.androidValue, key.androidKey, value.iosValue))
         }
     } finally {
-        identicalStringsFileWriter.flush()
+        fileWriter.flush()
     }
 }
 
 private fun writeRemaining(androidStringsPool: Map<String, String>, iOsStringsPool: Map<String, String>) {
     println("Writing remaining strings to csv ...")
-    val file = File("csv", "remaining.csv")
+    val file = File(exportFolder, "remaining.csv")
     if (file.exists()) file.delete()
-    val remainingStringsFileWriter = Files.newBufferedWriter(file.toPath(), Charset.forName("UTF-8"), StandardOpenOption.CREATE)
+    val fileWriter = Files.newBufferedWriter(file.toPath(), Charset.forName("UTF-8"), StandardOpenOption.CREATE)
     try {
-        val remainingStringsCsvWriter = CSVWriter(remainingStringsFileWriter, CSVWriter.DEFAULT_SEPARATOR, CSVWriter.NO_QUOTE_CHARACTER, CSVWriter.DEFAULT_ESCAPE_CHARACTER, CSVWriter.DEFAULT_LINE_END)
+        val csvWriter = getCsvWriter(fileWriter)
         val header = arrayOf("android key", "android value", "iOS key", "iOS value")
-        remainingStringsCsvWriter.writeNext(header)
+        csvWriter.writeNext(header)
 
         androidStringsPool.forEach { key, value ->
-            remainingStringsCsvWriter.writeNext(arrayOf(key, value, "", ""))
+            csvWriter.writeNext(arrayOf(key, value, "", ""))
         }
 
         iOsStringsPool.forEach { key, value ->
-            remainingStringsCsvWriter.writeNext(arrayOf("", "", key, value))
+            csvWriter.writeNext(arrayOf("", "", key, value))
         }
     } finally {
-        remainingStringsFileWriter.flush()
+        fileWriter.flush()
     }
+}
+
+fun getCsvWriter(writer: Writer): CSVWriter {
+    return CSVWriter(writer, '\t', CSVWriter.NO_QUOTE_CHARACTER, CSVWriter.DEFAULT_ESCAPE_CHARACTER, CSVWriter.DEFAULT_LINE_END)
 }
 
